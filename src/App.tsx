@@ -9,6 +9,13 @@ import Sobre from "./pages/Sobre";
 import Privacidade from "./pages/Privacidade";
 import Termos from "./pages/Termos";
 import Transparencia from "./pages/Transparencia";
+import BicicletasErgometricas from "./pages/BicicletasErgometricas";
+import Suplementos from "./pages/Suplementos";
+import SmartHome from "./pages/SmartHome";
+import PetShop from "./pages/PetShop";
+import PecasTrator from "./pages/PecasTrator";
+import Notebooks from "./pages/Notebooks";
+import TVs from "./pages/TVs";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +31,13 @@ const App = () => (
           <Route path="/privacidade" element={<Privacidade />} />
           <Route path="/termos" element={<Termos />} />
           <Route path="/transparencia" element={<Transparencia />} />
+          <Route path="/bicicletas-ergometricas" element={<BicicletasErgometricas />} />
+          <Route path="/suplementos" element={<Suplementos />} />
+          <Route path="/smart-home" element={<SmartHome />} />
+          <Route path="/pet-shop" element={<PetShop />} />
+          <Route path="/pecas-trator" element={<PecasTrator />} />
+          <Route path="/notebooks" element={<Notebooks />} />
+          <Route path="/tvs" element={<TVs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

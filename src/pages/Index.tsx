@@ -11,47 +11,47 @@ const Index = () => {
       title: "Melhores Bicicletas Ergométricas",
       description: "Descubra as bicicletas ergométricas com melhor custo-benefício, avaliações reais e especificações técnicas detalhadas para sua academia em casa.",
       image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
-      link: "https://mercadolivre.com/sec/2nKZmda",
+      link: "/bicicletas-ergometricas",
       tag: "TOP VENDAS"
     },
     {
       title: "Melhores Suplementos",
       description: "Análise completa dos suplementos mais vendidos: whey protein, creatina, BCAA e mais. Procedência garantida e melhores marcas do mercado.",
       image: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=800&q=80",
-      link: "https://mercadolivre.com/sec/1WqdDGr",
+      link: "/suplementos",
       tag: "PROMOÇÃO"
     },
     {
       title: "Smart Home - Casa Inteligente",
       description: "Transforme sua casa com dispositivos inteligentes: assistentes virtuais, lâmpadas smart, câmeras de segurança e automação residencial.",
       image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
-      link: "https://mercadolivre.com/sec/14GQgfK",
+      link: "/smart-home",
       tag: "TECNOLOGIA"
     },
     {
       title: "Pet Shop - Cães e Gatos",
       description: "Tudo para seu pet: ração premium, brinquedos, acessórios e produtos de higiene. Marcas confiáveis com avaliações positivas de donos de pets.",
       image: "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=800&q=80",
-      link: "https://mercadolivre.com/sec/2w3WCFN"
+      link: "/pet-shop"
     },
     {
       title: "Peças de Trator",
       description: "Peças originais e alternativas para tratores: filtros, correias, sistemas hidráulicos e componentes mecânicos de qualidade certificada.",
       image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
-      link: "https://mercadolivre.com/sec/2d6sMcw"
+      link: "/pecas-trator"
     },
     {
       title: "Melhores Notebooks",
       description: "Notebooks para trabalho, estudo e games: análises técnicas, comparativos de desempenho e melhores configurações para cada necessidade.",
       image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
-      link: "https://mercadolivre.com/sec/2cQ33FV",
+      link: "/notebooks",
       tag: "DESTAQUE"
     },
     {
       title: "Melhores TVs",
       description: "Smart TVs 4K e 8K: análise de imagem, recursos smart, qualidade de som e comparativo entre as principais marcas do mercado.",
       image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
-      link: "https://mercadolivre.com/sec/2DLVWrw",
+      link: "/tvs",
       tag: "NOVIDADE"
     }
   ];
