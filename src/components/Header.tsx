@@ -9,7 +9,7 @@ const Header = () => {
   const categories = [
     { name: "Bicicletas Ergométricas", path: "/bicicletas-ergometricas" },
     { name: "Suplementos", path: "/suplementos" },
-    { name: "Casa Inteligente", path: "/casa-inteligente" },
+    { name: "Casa Inteligente", path: "/smart-home" },
     { name: "Pet Shop", path: "/pet-shop" },
     { name: "Peças de Trator", path: "/pecas-trator" },
     { name: "Notebooks", path: "/notebooks" },
