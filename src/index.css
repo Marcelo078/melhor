@@ -21,6 +21,8 @@ All colors MUST be HSL.
     --primary: 211 100% 50%;
     --primary-foreground: 0 0% 100%;
     --primary-hover: 211 100% 45%;
+    --primary-dark: 211 100% 40%;
+    --primary-glow: 211 100% 65%;
 
     /* Offer Orange - Urgency & Conversion */
     --secondary: 24 95% 53%;
@@ -58,6 +60,7 @@ All colors MUST be HSL.
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
     --shadow-card: 0 4px 12px -2px rgb(0 0 0 / 0.08);
     --shadow-card-hover: 0 8px 24px -4px rgb(0 0 0 / 0.12);
+    --shadow-glow: 0 0 40px hsl(24 95% 53% / 0.4);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -157,5 +160,36 @@ All colors MUST be HSL.
 
   .transition-fast {
     transition: var(--transition-fast);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
   }
 }
